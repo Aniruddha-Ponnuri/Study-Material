@@ -1,0 +1,189 @@
+EXPERIMENT 1 ---------->>>>>
+To determine the amount of Na2CO3 and NaOH in a mixture using hydrochloric acid.
+Hydrochloric acid, phenolphthalein indicator, methyl orange indicator, distilled water and mixture solution
+Acid-base titration-A quantitative analysis of acids and bases; through this process, an acid or base of known concentration neutralizes an acid or base of unknown concentration.
+The titration progress can be monitored by visual indicators.
+The reaction’s equivalence point is the point at which the titrant has exactly neutralized the acid or base in the unknown analyte; if you know the volume and concentration of the titrant at the equivalence point, you can calculate the concentration of a base or acid in the unknown solution 
+Acid-base indicators
+Acid - base indicators (also known as pH indicators) are substances which change color with pH.
+They are usually weak acids or bases
+Common examples include phenolphthalein and methyl orange
+Methyl orange shows red color in acidic medium and yellow color in basic medium  
+     Methyl orange is a water soluble azo dye that shows color change in the pH range of 3.1 to 4.4
+Phenolpthalein shows colourless in acidic medium and pink color in basic medium, pink to deep red hue above pH 9.0 
+phenolphthalein changes colour since it requires this weakly basic (NaHCO3) solution to change its colour
+
+EXPERIMENT 2---------->>>>>
+To estimate the amount of total hardness, permanent hardness and temporary hardness of a given sample of water by EDTA method using ammonia buffer (pH =10) and Eriochrome black-T indicator.
+EDTA(ethylenediaminetetraacetic acid) solution, standard hard water, sample water, Eriochrome black T indicator (EBT), NH3-NH4Cl buffer solution (pH 10).
+Hard water is water that contains cations with a charge of +2, especially Ca2+ and Mg2+
+Temporary hardness:
+      It is due to the presence of bicarbonates of calcium and magnesium and can be removed by boiling.
+Permanent hardness:
+      It is due to the presence of sulphates, nitrates and chlorides of calcium and magnesium.
+Hardness is usually reported as parts per million (ppm) of calcium carbonate (by weight).
+Complexometric titration- Complexometric titration / chelatometry 
+         it's a form of volumetric analysis where the formation of a colored complex is used to indicate the end point of a titration.          Complexometric titrations are particularly useful for the determination of a mixture of different metal ions in solution.
+EBT is blue in a buffered solution at pH 10. It turns red when Ca2+ ions are added.
+Eriochrome black-T is blue. It turns red when it forms a complex with calcium, magnesium, or other metal ions.
+RED(starting pt) TO BLUE (end pt)
+The characteristic blue end-point is reached when sufficient EDTA is added and the metal ions bound to the indicator are chelated by EDTA, leaving the free indicator molecule.
+ROLE OF EDTA
+      EDTA is a hexadentate complexing or chelating agent used to capture the metal ions.
+      Capturing metal ions causes water to become softened, but metal ions are not completely removed from water.
+      EDTA simply binds the metal ions to it very tightly thus forming a strong and stable metal complex.
+The buffer solution is used to resist the change in pH as all reactions between metal ions and EDTA are pH dependent.
+CaCO3 as reference for hardness
+CaCO3 is stable, non-hygroscopic and is obtained in pure form. Therefore a standard hard water solution can be prepared by dissolving accurately weighed CaCO3 in HCl and can make up to a known volume.
+
+EXPERIMENT 3------->>>>>
+Estimation of amount of chloride content in a water sample by Mohr’s method
+Drinking water standards require chloride level not to exceed 250 mg/l (salinity)in a water sample (PH 6.5 TO 8.5)
+Silver nitrate solution (AgNO3), standard NaCl solution, K2CrO4 indicator, sample water and distilled water.
+A precipitation reaction refers to theformation of an insoluble salt when two solutions containing soluble salts are combined.
+The insoluble substance in the solution is called precipitate
+Argentometric titration ---- A titratiion involving Ag ion
+The indicator (potassium chromate) is added to visualize the endpoint, demonstrating presence of silver ions, solubility product of silver chromate exceeded, and it forms a brick reddish-brown precipitate. This stage is taken as evidence that all chloride ions have
+been consumed and only excess silver ions have reacted with chromate ions.
+Mohr’s method
+ It is an example of precipitation reaction.
+ The completion of the reaction in this case is observed by employing potassium chromate (K2CrO4) solution as an indicator.
+ K2CrO4 indicator will not be precipitated as Ag2CrO4, until all the chlorides in the solution have been precipitated as AgCl
+Before the addition of any silver nitrate the chromate indicator gives the clear solution a bright lemon–yellow color.
+Principle, requirements
+ The rate of reaction between the precipitant and the substance to be precipitated must be fast.
+ There should be no co-precipitation. The precipitate should be insoluble.
+ A suitable indicator should be used to locate the end point of the titration (for colorless precipitate) .
+ The process of precipitation titration is completely based on the concept of solubility product. The solubility product constant (Ksp) describes the equilibrium between a solid and its constituent ions in a solution.
+
+EXPERIMENT 4------->>>>>>>
+To determine the strength of a given solution of HCl by conductometric titration with a given NaOH solution./
+Using Conductometric titration to Determie the strength of HCl (strong acid vs. strong base)....
+Materials required:
+              Conductivity meter, conductivity cell, standard flask, pipette, burette, funnel, glass rod.
+Chemicals required :
+              Hydrochloric acid, NaOH, distilled water
+Conductometric titration
+ Electrolytic conductivity of the reaction mixture is continuously monitored as one reactant is added.
+ The equivalence point is the point at which the conductivity undergoes a sudden change.
+ The electrical conductivity of an electrolytic solution is dependent on the number of free ions in the solution
+ The method can be used for titrating coloured solutions or homogeneous suspension which cannot be used with normal indicators.
+Conductance is a measure of how easily those charge particles move through a solution/material (measured in siemens)
+Resistance refers to the opposition to the flow of current
+The reciprocal of the resistance is called conductance. It is denoted by C.
+Conductivity (or specific conductance) of an electrolytic
+solution is a measure of its ability to conduct electricity with
+the help of free ions in it.
+ Conductance of an ion depends on its size and mobility in an aqueous solution.
+ The order of size of hydrated ionic radii of alkali metal cations is as follows: li<na<k<rb<cs
+ Hence the ease of ionic conductance is : li>na>k>rb>cs
+Specific conductivity decreases on dilution
+Specific conductivity increases with temperature as the mobility of the ions increases
+As we add NaOH(aq) to the HCl(aq) in excess, some of the highly mobile H+(aq) are removed because they react with the OH-(aq) to
+produce water
+Before NaOH is added, the conductance is high due to the presence of highly mobile hydrogen ions.
+When the base is added, the conductance falls due to the replacement of hydrogen ions by the added Na+ cation
+This decrease in the conductance continues till the equivalence point.
+At the equivalence point, the solution contains only NaCl
+After the equivalence point, the conductance increases due to the large conductivity of OH- ions due to its high mobility
+At the equivalence point, all the highly mobile H+(aq) have reacted with all the added OH-(aq), so, in solution we only have the less mobile ions Na+(aq) and Cl-(aq), so the conductance of the solution will be at its lowest which will be the end point for this titration
+With further additions of NaOH (aq) past the equivalence point the conductance of the solution will increase.
+The graph is in v shape 
+In order to reduce the influence of errors in the conductometric titration to a minimum, the angle between the two branches of the titration curve should be as small as possible.
+Precautions to take
+the cell constant should be checked and the same cell should be used throughout the experiment.
+ The conductivity of solution depends both on the concentration of the electrolyte as well as the temperature.
+ The apparatus should thus be cleaned well by distilled water so that no contaminant present in the solution and the experiment must be carried out at the same temperature.
+ Addition of NaOH solution, especially near the end point should be taken care of and if not there might be some error in finding
+out the exact equivalence point.
+In order to get accurate results, perform a fair titration
+Volume of NaOH required for neutralization is taken from the graph of fair titration intersection point which is corresponding to the volume axis (X)
+we do pilot titration to get the estimmate range of volume required 
+we do fair titration to find the exact volume out of that range 
+ADVANTAGE DISADVANTAGE
+ Does not require indicators since change in conductance is measured by conductivity meter
+ Suitable for coloured solutions
+ Since the end point is determined by graphical means accurate results are obtained with minimum error
+ Used for analysis of turbid suspensions, weak acids, weak bases, mix of weak & strong acids
+DISADVANTAGE
+ Increased level of salts in solution masks the conductivity changes and in such cases it does not give accurate results
+ The strength of NaOH solution should be greater than that of the HCl solution, so that the effect of volume change on the
+conductance be negligible.
+
+EXPERIMENT 5----->>>>>
+Determination of the strength of a mixture of acetic acid and hydrochloric acid by conductometry
+Materials required:
+         Conductivity meter, conductivity cell, standard flask, pipette, burette, funnel, glass rod.
+when a strong acid react with a strong base the coonductivity of solution decreases and after that when weak acid reacts with strong base the conductivity of solution slightly increases .
+After both the acids are consumed, there is a steep increase in conductivity which gives the end point
+
+EXPERIMENT 6------->>>>>>
+To estimate the amount of ferrous ion in the given sample by potentiometric titration
+Calculate the concentration of an unknown analyte by performing a redox titration
+Redox titration
+ Oxidation-reduction reaction between the titrand and the tirant. Here the end point is detected using a potentiometer
+ Potentiometric titrations involves the measurement of the potential of a suitable indicator electrode with respect to a reference electrode as a function of titrant volume.
+ SCE is used as the reference electrode. Platinum metal foil, dipped in Fe2+ solution is used as the indicator electrode
+saturated Calomel electrode(reference electrode) and pt electrode(indicator electrode)
+Reagents Required
+ Ferrous Ammonium Sulphate (FAS) solution
+ Std. K2Cr2O7 (0.1N) solution
+ dil. H2SO4 solution
+Potentiometric titration
+ Volumetric method for the measurement of changes in the e.m.f between two electrodes on the addition of titrant of known concentration to a solution of unknown concentration.
+
+EXPERIMENT 7------>>>>>>
+Determination of strength of an acid using pH meter
+Chemicals required :
+Hydrochloric acid, NaOH solution, distilled water
+A pH meter consists of two electrodes: a glass electrode (ISE), which is sensitive to the concentration of hydrogen ions in solution, and a calomel reference electrode.
+The pH meter measures the total potential across the two electrodes and displays this measurement on a scale calibrated in pH units
+
+A pH meter is an scientific instrument that measures the difference in electrical potential between a pH electrode and the reference electrode with respect to H+ Ion concentration which is expressed as Ph value initially there is a little change in pH which is dependent on H+ ions removed by a base OH-  at the end point is reached, the fraction of H+ ions removal increases rapidly by the base that causes a rapid change in Ph  of the test solutions 
+
+EXPERIMENT 8------>>>>>>
+To determine the molecular weight of a polymer in solution by using a Ostwald viscometer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	QUESTIONS-
+why do we standardize a solution 
+ans-Standardization is used to determine the exact concentration of a prepared solution.
+
+why do we standardize HCL
+ans-The purpose of standardisation is to determine the concentration, if titrant. For example you have to titrate some substance with HCl and you know that the strength of HCl is 0.5M, you will titrate it with NaOH first to check if the concentration of HCl is really 0.5M or not. A standard solution is a solution whose concentration is known precisely.
+
+why do we Standardize EDTA
+ans-Since [Metal ion]+ is unknown, you can make no measurement of the amount present, unless you know [EDTA] fairly accurately. And thus a known mass of primary standard is required to standardize, to calibrate the titration
+
+what is pipette and burette
+ans-equipments used in titration process 
+
+what is conductometric titration
+the process of the ion being replaced with another and the difference in the ionic conductivity of these ions changes the overall electrolyctic conductivity of the solution
+
+Apparatus used everytime
+beaker ,100mL standard flask, pipette, burette, funnel, glass rod
+
+what is redox titration
+

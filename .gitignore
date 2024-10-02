@@ -2,3 +2,6 @@ SEM_5/ML/Project/
 *.csv
 SEM_4/Sem-4_PFiles/
 SEM_4/Projects/
+*/.idea/
+*/.vscode/
+*/.code/

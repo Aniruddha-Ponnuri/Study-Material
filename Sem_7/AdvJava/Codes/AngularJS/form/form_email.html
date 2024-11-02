@@ -1,0 +1,51 @@
+<html>
+<head>
+<script>
+function validateForm() {
+    // Get the input fields
+    var name = document.f1.name.value;
+    var phone = document.f1.phone.value;
+    var email = document.f1.email.value;
+
+    // Regular expressions
+    var nameRegex = /^[a-zA-Z]+$/;
+    var phoneRegex = /^\d+$/;
+    var emailRegex = /^[^\s@]+@srmist\.edu\.in$/;
+
+    // Validate the name field
+    if (!nameRegex.test(name)) {
+        alert("Name must contain only letters.");
+        return false;
+    }
+
+    // Validate the phone field
+    if (!phoneRegex.test(phone)) {
+        alert("Phone number must contain only digits.");
+        return false;
+    }
+
+    // Validate the phone length (assuming 10 digits for this example)
+    if (phone.length != 10) {
+        alert("Phone number must be exactly 10 digits long.");
+        return false;
+    }
+
+    // Validate the email field
+    if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address ending with @srmist.ed.uin.");
+        return false;
+    }
+    alert("Form Submitted");
+    return true;
+}
+</script>
+</head>
+<body>
+<form name="f1" onsubmit="return validateForm()">
+    Name: <input type="text" name="name"><br>
+    Phone: <input type="text" name="phone"><br>
+    Email: <input type="text" name="email"><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html ng-app="myApp">
+<head>
+    <title>ngSwitch Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="myApp.js"></script>
+</head>
+<body ng-controller="myController">
+    <ul>
+    <li ng-repeat="number in numbers" ng-switch="numberCategory(number)">
+        <span ng-switch-when="positive">{{ number }} is Positive</span>
+        <span ng-switch-when="negative">{{ number }} is Negative</span>
+        <span ng-switch-when="zero">{{ number }} is Zero</span>
+    </li>
+</ul>
+</body>
+</html>
+

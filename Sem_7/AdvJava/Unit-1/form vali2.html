@@ -1,0 +1,101 @@
+
+<html>
+<head>
+    <script>
+        function validateForm() {
+            var regNumber = document.f1.regNumber.value;
+            var name = document.f1.name.value;
+            var department = document.f1.department.value;
+            var gender = document.f1.gender.value;
+            var hobbies = document.f1.hobbies;
+            var address = document.f1.address.value;
+		var hobbyChecked = false;
+		
+         
+            if (regNumber == "") {
+                alert("Registration Number must be filled out");
+                return false;
+            }
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            if (department == "Select") {
+                alert("Please select a department");
+                return false;
+            }
+
+            if (!gender) {
+                alert("Please select a gender");
+                return false;
+            }
+
+           // Check if at least one hobby is selected
+  
+        for (var i = 0; i < hobbies.length; i++) {
+          
+      		if (hobbies[i].checked) {
+                   
+ 			hobbyChecked = true;
+                  
+  			break;
+                }
+            
+						   }
+
+
+            if (!hobbyChecked) {
+   
+             alert("Please select at least one hobby");
+  
+              return false;
+            
+                              }
+
+	
+
+
+            if (address == "") {
+                alert("Address must be filled out");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Form Validation Example</h2>
+    <form name="f1" onsubmit="return validateForm()">
+        <label>Reg NO:</label>
+        <input type="text" name="regNumber"><br><br>
+
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Department:</label>
+        <select name="department">
+            <option value="Select">Select</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+        </select><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies" value="Reading"> Reading
+        <input type="checkbox" name="hobbies" value="Sports"> Sports<br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html ng-app="myApp">
+<head>
+    <title>Odd or Even Example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="myApp.js"> </script>
+</head>
+<body ng-controller="myController">
+
+    <ul>
+        <li ng-repeat="number in numbers">
+        <span ng-if="number % 2 === 0">{{ number }} is Even</span>
+        <span ng-if="number % 2 !== 0">{{ number }} is Odd</span>
+    </li>
+    </ul>
+
+</body>
+</html>

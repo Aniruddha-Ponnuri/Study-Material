@@ -1,0 +1,5 @@
+Unit-1 - Defining IoT Analytics and Challenges  - T1
+Unit-2 - IoT Devices, Networking Protocols and Standards for Internet of Things - T1
+Unit-3 - IoT Sensing, Mobile and Cognitive Systems   - T2
+Unit 4 - Smart Applications IoT with Data Analytics - T3
+Unit-5 - Case Studies in IoT Healthcare   - T2, T3

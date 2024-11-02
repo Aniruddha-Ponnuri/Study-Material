@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <script>
+        function validateForm() {
+            let name = document.forms["studentForm"]["name"].value;
+            let email = document.forms["studentForm"]["email"].value;
+            let phone = document.forms["studentForm"]["phone"].value;
+            let address = document.forms["studentForm"]["address"].value;
+            let age = document.forms["studentForm"]["age"].value;
+            let gender = document.forms["studentForm"]["gender"].value;
+            let course = document.forms["studentForm"]["course"].value;
+
+            // Regex patterns
+            let namePattern = /^[a-zA-Z\s]+$/;
+            let emailPattern = /^[^\s@]+@srmist\.edu\.in$/;
+            let phonePattern = /^[0-9]{8}$/;
+
+            if (!namePattern.test(name)) {
+                alert("Name must contain only letters and spaces");
+                return false;
+            }
+            if (!emailPattern.test(email)) {
+                alert("Invalid email format");
+                return false;
+            }
+            if (!phonePattern.test(phone)) {
+                alert("Phone number must be a 10-digit number");
+                return false;
+            }
+            if (address.trim() === "") {
+                alert("Address cannot be empty");
+                return false;
+            }
+            if (isNaN(age) || age < 1 || age > 100) {
+                alert("Age must be a number between 1 and 100");
+                return false;
+            }
+            if (gender === "") {
+                alert("Please select your gender");
+                return false;
+            }
+            if (course === "") {
+                alert("Please select a course");
+                return false;
+            }
+
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form name="studentForm" action="#" onsubmit="return validateForm()">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" name="age"><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="course">Select Course(s):</label><br>
+        <select id="course" name="course">
+            <option value="">--Select a course--</option>
+            <option value="engineering">Engineering</option>
+            <option value="science">Science</option>
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

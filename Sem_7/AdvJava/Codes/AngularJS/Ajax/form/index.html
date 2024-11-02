@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="validationApp" ng-controller="formController as ctrl">
+    <form name="myForm" ng-submit="ctrl.submitForm(myForm)" novalidate>
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" name="name" ng-model="ctrl.user.name" 
+            required minlength="4" pattern="^[A-Za-z ]+$" /> <br>
+        <div ng-show="myForm.name.$touched && myForm.name.$invalid">
+            <small ng-show="myForm.name.$error.required">Name is required.</small>
+            <small ng-show="myForm.name.$error.maxlength">Name must be less than 50 characters.</small>
+            <small ng-show="myForm.name.$error.pattern">Name can only contain letters and spaces.</small>
+        </div>
+
+        <!-- Registration Number -->
+        <label for="reg">Registration Number:</label>
+        <input type="text" name="reg" ng-model="ctrl.user.reg" 
+            required maxlength="14" pattern="^[A-Z]{2}[0-9]{12}$" /> <br>
+        <div ng-show="myForm.reg.$touched && myForm.reg.$invalid">
+            <small ng-show="myForm.reg.$error.required">Registration Number is required.</small>
+            <small ng-show="myForm.reg.$error.maxlength">Registration Number must be less than 14 characters.</small>
+            <small ng-show="myForm.reg.$error.pattern">Invalid format. Example: XX123456789012</small>
+        </div>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" ng-model="ctrl.user.email" required maxlength="100" /> <br>
+        <div ng-show="myForm.email.$touched && myForm.email.$invalid">
+            <small ng-show="myForm.email.$error.required">Email is required.</small>
+            <small ng-show="myForm.email.$error.email">Invalid email format.</small>
+            <small ng-show="myForm.email.$error.maxlength">Email must be less than 100 characters.</small>
+        </div>
+
+        <!-- Gender -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="Male" ng-model="ctrl.user.gender" required> Male
+        <input type="radio" name="gender" value="Female" ng-model="ctrl.user.gender" required> Female <br>
+        <div ng-show="myForm.gender.$touched && myForm.gender.$invalid">
+            <small ng-show="myForm.gender.$error.required">Gender is required.</small>
+        </div>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="text" name="age" ng-model="ctrl.user.age" required pattern="^[0-9]{2}$" /> <br>
+        <div ng-show="myForm.age.$touched && myForm.age.$invalid">
+            <small ng-show="myForm.age.$error.required">Age is required.</small>
+            <small ng-show="myForm.age.$error.pattern">Age must be a two-digit number.</small>
+        </div>
+
+        <!-- Department -->
+        <label for="dept">Department:</label>
+        <input type="text" name="dept" ng-model="ctrl.user.dept" 
+            required maxlength="50" pattern="^[A-Za-z ]+$" /> <br>
+        <div ng-show="myForm.dept.$touched && myForm.dept.$invalid">
+            <small ng-show="myForm.dept.$error.required">Department is required.</small>
+            <small ng-show="myForm.dept.$error.maxlength">Department must be less than 50 characters.</small>
+            <small ng-show="myForm.dept.$error.pattern">Department can only contain letters and spaces.</small>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" ng-disabled="myForm.$invalid">Submit</button>
+    </form> 
+</body>
+</html>
